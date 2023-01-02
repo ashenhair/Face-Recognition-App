@@ -4,7 +4,7 @@ You must add your own API key in the src/App.js file to connect to Clarifai.
 
 You can grab Clarifai API key at https://www.clarifai.com/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 
 
