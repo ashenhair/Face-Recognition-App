@@ -10,8 +10,6 @@ import Rank from './components/Rank/Rank';
 const app = new Clarifai.App({
   apiKey: '6dc7e46bc9124c5c8824be4822abe105'
  });
- 
-
  class App extends Component {
    constructor() {
      super();
@@ -22,9 +20,8 @@ const app = new Clarifai.App({
        
      }
    }
- 
   
- 
+   
    calculateFaceLocation = (data) => {
      const clarifaiFace = data.outputs[0].data.regions[0].region_info.bounding_box;
      const image = document.getElementById('inputimage');
